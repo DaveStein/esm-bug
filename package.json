@@ -1,0 +1,17 @@
+{
+  "name": "esm-bugr",
+  "version": "0.0.1",
+  "description": "demonstrate bug",
+  "esm": {
+    "mode": "auto",
+    "cjs": true
+  },
+  "scripts": {
+    "start": "node -r esm src/server.js"
+  },
+  "author": "Dave Stein",
+  "license": "ISC",
+  "dependencies": {
+    "esm": "^3.0.84"
+  }
+}
